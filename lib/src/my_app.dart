@@ -22,7 +22,7 @@ class Home extends ConsumerWidget {
       body: Center(
         child: Consumer(builder: (context, ref, _) {
           final count = ref.watch(_counterProvider.state).state;
-          return Text('$count');
+          return Text('Taps: $count');
         }),
       ),
       floatingActionButton: FloatingActionButton(

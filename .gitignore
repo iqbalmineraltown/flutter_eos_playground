@@ -31,9 +31,8 @@
 .pub/
 /build/
 
-# Flutter version manager
-.fvm/
-!.fvm/fvm_config.json
+# Flutter version manager linked folder
+.fvm/flutter_sdk
 
 # Web related
 lib/generated_plugin_registrant.dart
@@ -48,3 +47,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# coverage report
+coverage/
+
+# test artifacts
+**/**.apk
+**/**.app
+**/**.zip
+
